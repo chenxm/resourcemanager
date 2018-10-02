@@ -41,6 +41,7 @@ const config_library = {
         new webpack.DefinePlugin({
             __VERSION__: "\"" + version + "\""
         }),
+/*
         new webpack.optimize.UglifyJsPlugin({
             output: {
                 beautify: true,
@@ -50,7 +51,7 @@ const config_library = {
                 warnings: false
             }
         })
-
+*/
     ]
 };
 
